@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<li>Cálculo das gerações.</li>
+
+<script>
+
+    function pulaLinha () {
+
+        document.write("<br><br>")
+
+    }
+
+    function mostra (frase) {
+
+        document.write(frase)
+        pulaLinha();
+
+    }
+
+    var começo = 1500;
+    var tempo = 26;
+    var hoje = 2016;
+
+    mostra("Do começo até hoje já se passaram " + (hoje - começo) + " anos.");
+
+    var resultado = 516;
+
+    mostra("Então já temos um total de " + Math.round(516 / 26 ) + " gerações.")
+
+
+</script>
+

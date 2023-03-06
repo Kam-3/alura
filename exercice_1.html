@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var inicio = 20;
+    var final = parseInt(prompt("Até qual número você deseja que seja subtraído?"));
+
+    while(inicio >= final) {
+
+        mostra("O número é " + inicio);
+        inicio = inicio - 1;
+    }
+
+    mostra("Fim.");
+
+    </script>
